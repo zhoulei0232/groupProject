@@ -1,0 +1,31 @@
+.mask{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:$Alt-top-default ;
+  .alt{
+  width: $Alt-width-default;
+  padding: $Alt-padding-y  $Alt-padding-x;
+  // background-color: $primary;
+  border-radius: $Alt-border-radius;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .close{
+    cursor: pointer;
+ 
+   }
+  }
+}
+.alt-primary{
+  @include alert-style($primary )
+}
+.alt-danger{
+  @include alert-style($danger )
+}
+.alt-default{
+  @include alert-style($white )
+}

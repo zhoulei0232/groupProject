@@ -1,0 +1,15 @@
+{
+  "eslint.validate": [
+    "javascriptreact",
+    "javascript",
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    "html",
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ]
+}
